@@ -1,0 +1,4 @@
+Resume your goal - "Prove solution : Problem.Statement in Solution.lean." and continue proving the original theorem.
+The proof is still incomplete. Don't stop at helper lemmas. Test different strategies, never give up.
+You are able to solve it, if you are stuck try different strategies and ideas.
+Follow the original instructions until the full theorem passes the build and audit.

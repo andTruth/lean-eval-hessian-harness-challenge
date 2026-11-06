@@ -1,0 +1,4 @@
+{
+  "name": "Lean Eval challenge",
+  "image": "ghcr.io/andtruth/lean-eval-hessian-harness-challenge:latest"
+}

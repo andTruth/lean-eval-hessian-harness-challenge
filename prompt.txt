@@ -1,0 +1,16 @@
+Prove solution : Problem.Statement in Solution.lean.
+Keep Problem.lean, lakefile.toml, Audit.lean and installed dependencies unchanged.
+Lean 4.35.0, Mathlib and all required dependencies are installed with compiled caches ready for offline use.
+Mathlib is at /opt/lean-packages/mathlib. Compiled dependency caches are stored alongside those packages.
+Use these caches; do not download, reinstall or clean dependencies.
+Lake reuses these installed packages automatically, including in worktrees under scratch/.
+Put helper modules under Solution/.
+Work only inside this directory. Use scratch/ for temporary files.
+
+Use subagents when needed to speed-up your work and parrarelize tasks.
+
+Work autonomously without internet, earlier solutions, proof hints, sorry, new axioms or native_decide.
+Set yourself a goal to prove the theorem and follow it until everything is proved.
+Don't stop until it is proven. Test different strategies and approaches, never give up. You are able to solve it.
+Helper lemmas alone do not complete the task. Continue until the proof is complete.
+Finish with lake build && lake env lean Audit.lean.
